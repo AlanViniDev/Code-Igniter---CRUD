@@ -1,0 +1,924 @@
+CRITICAL - 2020-06-27 13:35:10 --> Class 'codeIgnitter\Controller' not found
+#0 C:\xampp\htdocs\framework-master\system\Router\Router.php(575): include_once()
+#1 C:\xampp\htdocs\framework-master\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('pages')
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('pages')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-06-27 13:36:57 --> Invalid file: {0}
+#0 C:\xampp\htdocs\framework-master\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_messag....')
+#1 C:\xampp\htdocs\framework-master\system\Common.php(1087): CodeIgniter\View\View->render('welcome_messag', Array, true)
+#2 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(8): view('welcome_messag')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->index()
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#5 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-27 13:52:47 --> Invalid file: {0}
+#0 C:\xampp\htdocs\framework-master\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\xampp\htdocs\framework-master\system\Common.php(1087): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(9): view('index')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->index()
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#5 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-27 13:53:06 --> Invalid file: {0}
+#0 C:\xampp\htdocs\framework-master\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\xampp\htdocs\framework-master\system\Common.php(1087): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(9): view('index')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->index()
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#5 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-27 13:54:17 --> Invalid file: {0}
+#0 C:\xampp\htdocs\framework-master\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\xampp\htdocs\framework-master\system\Common.php(1087): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(9): view('index')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->index()
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#5 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-27 13:56:25 --> Use of undefined constant APPATH - assumed 'APPATH' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->showme()
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-06-27 13:56:37 --> Use of undefined constant APPATH - assumed 'APPATH' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->showme()
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-06-27 13:56:42 --> Use of undefined constant APPATH - assumed 'APPATH' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->showme()
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-06-27 14:04:43 --> Use of undefined constant APPATH - assumed 'APPATH' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->showme()
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-06-27 14:05:06 --> Use of undefined constant APPATH - assumed 'APPATH' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->showme()
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-06-27 14:05:53 --> Use of undefined constant APPATH - assumed 'APPATH' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->showme()
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-06-27 14:06:01 --> Use of undefined constant APPATH - assumed 'APPATH' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->showme()
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-06-27 14:07:38 --> Use of undefined constant APPATH - assumed 'APPATH' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->showme()
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-06-27 14:26:46 --> Use of undefined constant APPATH - assumed 'APPATH' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->showme()
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-06-27 14:28:05 --> Use of undefined constant APPATH - assumed 'APPATH' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->showme()
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-06-27 14:28:37 --> Use of undefined constant APPATH - assumed 'APPATH' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->showme()
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-06-27 14:28:39 --> Use of undefined constant APPATH - assumed 'APPATH' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->showme()
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-06-27 14:29:19 --> Use of undefined constant APPATH - assumed 'APPATH' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->showme()
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-06-27 14:29:32 --> Use of undefined constant APPATH - assumed 'APPATH' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->showme()
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-06-27 14:30:07 --> Use of undefined constant APPATH - assumed 'APPATH' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->showme()
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-06-27 14:36:54 --> Invalid file: {0}
+#0 C:\xampp\htdocs\framework-master\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\xampp\htdocs\framework-master\system\Common.php(1087): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(9): view('index')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->index()
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#5 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-27 14:37:00 --> Invalid file: {0}
+#0 C:\xampp\htdocs\framework-master\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\xampp\htdocs\framework-master\system\Common.php(1087): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(9): view('index')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->index()
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#5 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-27 14:53:05 --> Invalid file: {0}
+#0 C:\xampp\htdocs\framework-master\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\xampp\htdocs\framework-master\system\Common.php(1087): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(9): view('index')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->index()
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#5 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-27 15:02:35 --> Invalid file: {0}
+#0 C:\xampp\htdocs\framework-master\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\xampp\htdocs\framework-master\system\Common.php(1087): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(9): view('index')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->index()
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#5 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-27 15:02:40 --> Invalid file: {0}
+#0 C:\xampp\htdocs\framework-master\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 C:\xampp\htdocs\framework-master\system\Common.php(1087): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 C:\xampp\htdocs\framework-master\app\Controllers\Home.php(9): view('welcome_message')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-27 15:02:43 --> Invalid file: {0}
+#0 C:\xampp\htdocs\framework-master\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\xampp\htdocs\framework-master\system\Common.php(1087): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(9): view('index')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->index()
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#5 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-27 15:02:46 --> Invalid file: {0}
+#0 C:\xampp\htdocs\framework-master\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\xampp\htdocs\framework-master\system\Common.php(1087): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(9): view('index')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->index()
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#5 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-27 15:02:57 --> Invalid file: {0}
+#0 C:\xampp\htdocs\framework-master\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\xampp\htdocs\framework-master\system\Common.php(1087): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(9): view('index')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->index()
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#5 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-27 15:03:00 --> Invalid file: {0}
+#0 C:\xampp\htdocs\framework-master\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\xampp\htdocs\framework-master\system\Common.php(1087): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(9): view('index')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->index()
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#5 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-27 15:03:03 --> Invalid file: {0}
+#0 C:\xampp\htdocs\framework-master\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 C:\xampp\htdocs\framework-master\system\Common.php(1087): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 C:\xampp\htdocs\framework-master\app\Controllers\Home.php(9): view('welcome_message')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-27 15:03:06 --> Invalid file: {0}
+#0 C:\xampp\htdocs\framework-master\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 C:\xampp\htdocs\framework-master\system\Common.php(1087): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 C:\xampp\htdocs\framework-master\app\Controllers\Home.php(9): view('welcome_message')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-27 15:03:20 --> Invalid file: {0}
+#0 C:\xampp\htdocs\framework-master\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 C:\xampp\htdocs\framework-master\system\Common.php(1087): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 C:\xampp\htdocs\framework-master\app\Controllers\Home.php(9): view('welcome_message')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-27 15:03:54 --> Invalid file: {0}
+#0 C:\xampp\htdocs\framework-master\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 C:\xampp\htdocs\framework-master\system\Common.php(1087): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 C:\xampp\htdocs\framework-master\app\Controllers\Home.php(9): view('welcome_message')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-27 15:16:35 --> Invalid file: {0}
+#0 C:\xampp\htdocs\framework-master\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\xampp\htdocs\framework-master\system\Common.php(1087): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(9): view('index')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->index()
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#5 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-27 15:30:58 --> is_file() expects exactly 1 parameter, 2 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'is_file() expec...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(16): is_file('C:\\xampp\\htdocs...', 'Views/pages/hom...')
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->showme()
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-06-27 15:43:57 --> is_file() expects exactly 1 parameter, 2 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'is_file() expec...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(16): is_file('C:\\xampp\\htdocs...', 'Views/pages/hom...')
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->showme()
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-06-27 15:44:04 --> is_file() expects exactly 1 parameter, 2 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'is_file() expec...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(16): is_file('C:\\xampp\\htdocs...', 'Views/pages/sob...')
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->showme('sobre')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-06-27 15:44:07 --> is_file() expects exactly 1 parameter, 2 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'is_file() expec...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(16): is_file('C:\\xampp\\htdocs...', 'Views/pages/pag...')
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->showme('pages')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-06-27 15:44:42 --> is_file() expects exactly 1 parameter, 2 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'is_file() expec...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(16): is_file('C:\\xampp\\htdocs...', 'Views/pages/pag...')
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->showme('page')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-06-27 15:46:31 --> Invalid file: {0}
+#0 C:\xampp\htdocs\framework-master\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/index.php')
+#1 C:\xampp\htdocs\framework-master\system\Common.php(1087): CodeIgniter\View\View->render('pages/index', Array, true)
+#2 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(9): view('pages/index')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->index()
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#5 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-27 15:46:33 --> Invalid file: {0}
+#0 C:\xampp\htdocs\framework-master\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/index.php')
+#1 C:\xampp\htdocs\framework-master\system\Common.php(1087): CodeIgniter\View\View->render('pages/index', Array, true)
+#2 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(9): view('pages/index')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->index()
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#5 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-27 15:47:56 --> is_file() expects exactly 1 parameter, 2 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'is_file() expec...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(16): is_file('C:\\xampp\\htdocs...', 'Views/pages/hom...')
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->showme()
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-06-27 15:51:27 --> is_file() expects exactly 1 parameter, 2 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'is_file() expec...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(16): is_file('C:\\xampp\\htdocs...', 'Views/pages/hom...')
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->showme()
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-06-27 15:54:03 --> is_file() expects exactly 1 parameter, 2 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'is_file() expec...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(16): is_file('C:\\xampp\\htdocs...', 'Views/pages/hom...')
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->showme()
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-06-27 15:54:55 --> is_file() expects exactly 1 parameter, 2 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'is_file() expec...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(16): is_file('C:\\xampp\\htdocs...', 'Views/pages/hom...')
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->showme('home')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-06-27 15:55:57 --> Use of undefined constant APPATH - assumed 'APPATH' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->showme('home')
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-06-27 15:56:26 --> is_file() expects exactly 1 parameter, 2 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'is_file() expec...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(16): is_file('C:\\xampp\\htdocs...', 'Views/pages/hom...')
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->showme('home')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-06-27 15:56:42 --> is_file() expects exactly 1 parameter, 2 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'is_file() expec...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(16): is_file('C:\\xampp\\htdocs...', 'Views/pages/hom...')
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->showme('home')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-06-27 15:59:55 --> is_file() expects exactly 1 parameter, 2 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'is_file() expec...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(16): is_file('C:\\xampp\\htdocs...', 'Views/pages/hom...')
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->showme('home')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-06-27 16:01:24 --> is_file() expects exactly 1 parameter, 2 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'is_file() expec...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(16): is_file('C:\\xampp\\htdocs...', 'Views/pages/hom...')
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->showme('home')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-06-27 16:02:46 --> is_file() expects exactly 1 parameter, 2 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'is_file() expec...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\framework-master\app\Controllers\pages.php(16): is_file('C:\\xampp\\htdocs...', 'Views/pages/hom...')
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\pages->showme('home')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-06-27 17:02:36 --> Class 'App\controllers\NewsModel' not found
+#0 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\controllers\News->index()
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\controllers\News))
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-06-27 17:02:55 --> Class 'App\controllers\NewsModel' not found
+#0 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\controllers\News->index()
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\controllers\News))
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-06-27 17:10:23 --> Class 'App\controllers\NewsModel' not found
+#0 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\controllers\News->index()
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\controllers\News))
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-06-27 17:11:44 --> Class 'App\controllers\NewsModel' not found
+#0 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\controllers\News->index()
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\controllers\News))
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-06-27 17:13:28 --> Class 'App\controllers\NewsModel' not found
+#0 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\controllers\News->index()
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\controllers\News))
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-06-27 17:15:18 --> Class 'App\controllers\NewsModel' not found
+#0 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\controllers\News->index()
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\controllers\News))
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-06-27 17:16:49 --> Class 'App\controllers\NewsModel' not found
+#0 C:\xampp\htdocs\framework-master\system\Router\Router.php(575): include_once()
+#1 C:\xampp\htdocs\framework-master\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('news')
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('news')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-06-27 17:17:17 --> Class 'App\Model\NewsModel' not found
+#0 C:\xampp\htdocs\framework-master\system\Router\Router.php(575): include_once()
+#1 C:\xampp\htdocs\framework-master\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('news')
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('news')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-06-27 17:19:38 --> Class 'App\Controllers\NewsModel' not found
+#0 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->index()
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-06-27 17:21:00 --> Class 'App\Controllers\NewsModel' not found
+#0 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->index()
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-06-27 17:23:15 --> Object of class App\models\NewsModel could not be converted to string
+#0 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->index()
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-06-27 17:23:42 --> Object of class App\models\NewsModel could not be converted to string
+#0 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->index()
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-06-27 17:24:46 --> Object of class App\models\NewsModel could not be converted to string
+#0 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->index()
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-06-27 17:27:21 --> Object of class App\models\NewsModel could not be converted to string
+#0 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->index()
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-06-27 17:30:26 --> Object of class App\models\NewsModel could not be converted to string
+#0 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->index()
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-06-27 17:30:44 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\framework-master\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('news')
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('news')
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-06-27 17:31:23 --> Object of class App\models\NewsModel could not be converted to string
+#0 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->index()
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-06-27 19:36:28 --> Class 'App\Controllers\NewModel' not found
+#0 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->view('1')
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-06-27 19:36:48 --> Trying to get property '1' of non-object
+#0 C:\xampp\htdocs\framework-master\app\Models\NewsModel.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\framework-master\app\Controllers\News.php(22): App\models\NewsModel->getNews('1')
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->view('1')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-06-27 20:04:54 --> Trying to get property '1' of non-object
+#0 C:\xampp\htdocs\framework-master\app\Models\NewsModel.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\framework-master\app\Controllers\News.php(22): App\models\NewsModel->getNews('1')
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->view('1')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-06-27 20:05:02 --> Trying to get property '1' of non-object
+#0 C:\xampp\htdocs\framework-master\app\Models\NewsModel.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\framework-master\app\Controllers\News.php(22): App\models\NewsModel->getNews('1')
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->view('1')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-06-27 20:05:24 --> Class 'codeIgniter\Exceptions\PageNotFoundException' not found
+#0 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->view('1')
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-06-27 20:05:42 --> Trying to get property '1' of non-object
+#0 C:\xampp\htdocs\framework-master\app\Models\NewsModel.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\framework-master\app\Controllers\News.php(22): App\models\NewsModel->getNews('1')
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->view('1')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-06-27 20:07:56 --> Trying to get property '1' of non-object
+#0 C:\xampp\htdocs\framework-master\app\Models\NewsModel.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\framework-master\app\Controllers\News.php(22): App\models\NewsModel->getNews('1')
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->view('1')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-06-27 20:08:12 --> Trying to get property '1' of non-object
+#0 C:\xampp\htdocs\framework-master\app\Models\NewsModel.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\framework-master\app\Controllers\News.php(22): App\models\NewsModel->getNews('1')
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->view('1')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-06-27 20:08:25 --> Trying to get property '1' of non-object
+#0 C:\xampp\htdocs\framework-master\app\Models\NewsModel.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\framework-master\app\Controllers\News.php(22): App\models\NewsModel->getNews('1')
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->view('1')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-06-27 20:11:00 --> Trying to get property '1' of non-object
+#0 C:\xampp\htdocs\framework-master\app\Models\NewsModel.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\framework-master\app\Controllers\News.php(22): App\models\NewsModel->getNews('1')
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->view('1')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-06-27 20:12:13 --> Trying to get property '1' of non-object
+#0 C:\xampp\htdocs\framework-master\app\Models\NewsModel.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\framework-master\app\Controllers\News.php(22): App\models\NewsModel->getNews('1')
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->view('1')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-06-27 20:13:34 --> Trying to get property '1' of non-object
+#0 C:\xampp\htdocs\framework-master\app\Models\NewsModel.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\framework-master\app\Controllers\News.php(21): App\models\NewsModel->getNews('1')
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->view('1')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-06-27 20:14:45 --> Trying to get property '1' of non-object
+#0 C:\xampp\htdocs\framework-master\app\Models\NewsModel.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\framework-master\app\Controllers\News.php(23): App\models\NewsModel->getNews('1')
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->view('1')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-06-27 20:15:32 --> Trying to get property '1' of non-object
+#0 C:\xampp\htdocs\framework-master\app\Models\NewsModel.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\framework-master\app\Controllers\News.php(23): App\models\NewsModel->getNews('1')
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->view('1')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-06-27 20:15:52 --> Trying to get property '1' of non-object
+#0 C:\xampp\htdocs\framework-master\app\Models\NewsModel.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\framework-master\app\Controllers\News.php(23): App\models\NewsModel->getNews('1')
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->view('1')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-06-27 20:19:28 --> Undefined index: title
+#0 C:\xampp\htdocs\framework-master\app\Controllers\News.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->view('1')
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-06-27 20:22:46 --> Undefined index: title
+#0 C:\xampp\htdocs\framework-master\app\Controllers\News.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->view('1')
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-06-27 20:27:59 --> Undefined index: title
+#0 C:\xampp\htdocs\framework-master\app\Views\news\view.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\framework-master\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\framework-master\system\Common.php(1087): CodeIgniter\View\View->render('news/view', Array, true)
+#3 C:\xampp\htdocs\framework-master\app\Controllers\News.php(33): view('news/view', Array)
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->view('1')
+#5 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#6 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-06-27 20:57:52 --> Invalid file: {0}
+#0 C:\xampp\htdocs\framework-master\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('news/form.php')
+#1 C:\xampp\htdocs\framework-master\system\Common.php(1087): CodeIgniter\View\View->render('news/form', Array, true)
+#2 C:\xampp\htdocs\framework-master\app\Controllers\News.php(40): view('news/form')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->create()
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#5 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-27 21:52:29 --> {0} is not a valid rule.
+#0 C:\xampp\htdocs\framework-master\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min_lenght')
+#1 C:\xampp\htdocs\framework-master\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('titulo', 'titulo', 'P', Array, Array)
+#2 C:\xampp\htdocs\framework-master\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\framework-master\app\Controllers\News.php(51): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->store()
+#5 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#6 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-06-27 21:53:25 --> {0} is not a valid rule.
+#0 C:\xampp\htdocs\framework-master\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min_lenght')
+#1 C:\xampp\htdocs\framework-master\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('titulo', 'titulo', 'P', Array, Array)
+#2 C:\xampp\htdocs\framework-master\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\framework-master\app\Controllers\News.php(51): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->store()
+#5 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#6 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-06-27 21:55:47 --> {0} is not a valid rule.
+#0 C:\xampp\htdocs\framework-master\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min_lenght')
+#1 C:\xampp\htdocs\framework-master\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('titulo', 'titulo', 'fsdf', Array, Array)
+#2 C:\xampp\htdocs\framework-master\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\framework-master\app\Controllers\News.php(51): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->store()
+#5 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#6 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-06-27 21:57:12 --> {0} is not a valid rule.
+#0 C:\xampp\htdocs\framework-master\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min_lenght')
+#1 C:\xampp\htdocs\framework-master\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('titulo', 'titulo', 'fsdf', Array, Array)
+#2 C:\xampp\htdocs\framework-master\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\framework-master\app\Controllers\News.php(51): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->store()
+#5 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#6 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-06-27 21:57:37 --> {0} is not a valid rule.
+#0 C:\xampp\htdocs\framework-master\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min_lenghth')
+#1 C:\xampp\htdocs\framework-master\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('titulo', 'titulo', 'dasd', Array, Array)
+#2 C:\xampp\htdocs\framework-master\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\framework-master\app\Controllers\News.php(51): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->store()
+#5 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#6 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-06-27 21:58:52 --> Undefined variable: model
+#0 C:\xampp\htdocs\framework-master\app\Controllers\News.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->store()
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-06-27 22:01:09 --> Undefined variable: model
+#0 C:\xampp\htdocs\framework-master\app\Controllers\News.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->store()
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-06-27 22:02:38 --> Undefined variable: model
+#0 C:\xampp\htdocs\framework-master\app\Controllers\News.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->store()
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-06-27 22:02:52 --> Undefined variable: model
+#0 C:\xampp\htdocs\framework-master\app\Controllers\News.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->store()
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-06-27 22:04:05 --> Undefined variable: model
+#0 C:\xampp\htdocs\framework-master\app\Controllers\News.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->store()
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-06-27 22:05:41 --> Undefined variable: model
+#0 C:\xampp\htdocs\framework-master\app\Controllers\News.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->store()
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-06-27 22:06:37 --> Undefined variable: model
+#0 C:\xampp\htdocs\framework-master\app\Controllers\News.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->store()
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-06-27 22:07:42 --> Call to undefined function App\Controllers\url_titulo()
+#0 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->store()
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-06-27 22:14:23 --> Duplicate entry '0' for key 'PRIMARY'
+#0 C:\xampp\htdocs\framework-master\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `ne...')
+#1 C:\xampp\htdocs\framework-master\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ne...')
+#2 C:\xampp\htdocs\framework-master\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ne...')
+#3 C:\xampp\htdocs\framework-master\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ne...', Array, false)
+#4 C:\xampp\htdocs\framework-master\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\framework-master\system\Model.php(557): CodeIgniter\Model->insert(Array, false)
+#6 C:\xampp\htdocs\framework-master\app\Controllers\News.php(57): CodeIgniter\Model->save(Array)
+#7 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->store()
+#8 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#9 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-06-27 23:22:32 --> Class 'App\Controllers\NewusModel' not found
+#0 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->delete('1')
+#1 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#2 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-06-27 23:22:45 --> Invalid file: {0}
+#0 C:\xampp\htdocs\framework-master\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('news/.php')
+#1 C:\xampp\htdocs\framework-master\system\Common.php(1087): CodeIgniter\View\View->render('news/', Array, true)
+#2 C:\xampp\htdocs\framework-master\app\Controllers\News.php(93): view('news/')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->delete('1')
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#5 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-27 23:23:16 --> Invalid file: {0}
+#0 C:\xampp\htdocs\framework-master\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('news/.php')
+#1 C:\xampp\htdocs\framework-master\system\Common.php(1087): CodeIgniter\View\View->render('news/', Array, true)
+#2 C:\xampp\htdocs\framework-master\app\Controllers\News.php(93): view('news/')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->delete('2')
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#5 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-06-27 23:23:25 --> Invalid file: {0}
+#0 C:\xampp\htdocs\framework-master\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('news/.php')
+#1 C:\xampp\htdocs\framework-master\system\Common.php(1087): CodeIgniter\View\View->render('news/', Array, true)
+#2 C:\xampp\htdocs\framework-master\app\Controllers\News.php(93): view('news/')
+#3 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(914): App\Controllers\News->delete('3')
+#4 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#5 C:\xampp\htdocs\framework-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\framework-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
